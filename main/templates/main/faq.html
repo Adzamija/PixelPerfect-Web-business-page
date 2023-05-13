@@ -1,0 +1,93 @@
+{% extends "main/layout.html" %}
+{% block title %}FAQ{% endblock %}
+{% block body %}
+    <section class="py-5">
+        <div class="container px-5 my-5">
+            <div class="text-center mb-5">
+                <h1 class="fw-bolder">Frequently Asked Questions</h1>
+                <p class="lead fw-normal text-muted mb-0">How can we help you?</p>
+            </div>
+            <div class="row gx-5">
+                <div class="col-xl-8">
+                    <!-- FAQ Accordion 1-->
+                    <h2 class="fw-bolder mb-3">Account &amp; Billing</h2>
+                    <div class="accordion mb-5" id="accordionExample">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><strong>What are the limitations of the free plan?</strong></button></h3>
+                            <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    The free plan includes basic website design and development services with a limited number of available options. Additionally, our team will provide limited support and maintenance for the website. If you require more advanced features or support, we recommend upgrading to one of our paid plans.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><strong>What level of support is included in the PRO plan?</strong></button></h3>
+                            <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    The PRO plan includes priority support and website maintenance, meaning that our team will respond to your support requests and work to resolve any issues as quickly as possible. Additionally, we will proactively monitor your website for any potential issues and perform regular maintenance to ensure optimal performance. If you require more advanced support or maintenance, we recommend upgrading to our ENTERPRISE plan.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingThree"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><strong>Can I customize my website design with the ENTERPRISE plan?</strong></button></h3>
+                            <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes, the ENTERPRISE plan includes full customization of your website design, allowing you to create a truly unique online presence for your business. Our team of experienced designers and developers will work closely with you to understand your vision and create a website that meets your specific needs. Additionally, the ENTERPRISE plan includes advanced features such as e-commerce functionality and integrations with third-party software.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ Accordion 2-->
+                    <h2 class="fw-bolder mb-3">General Questions</h2>
+                    <div class="accordion mb-5 mb-xl-0" id="accordionExample2">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2"><strong>How long will it take to develop my website?</strong></button></h3>
+                            <div class="accordion-collapse collapse show" id="collapseOne2" aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    The timeline for website development can vary depending on the complexity of the project and your specific needs. Our team will work closely with you to understand your requirements and provide an estimated timeline for completion. We strive to deliver high-quality websites in a timely manner, and will communicate with you throughout the development process to ensure that you are satisfied with the progress.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2"><strong>What happens after my website is launched?</strong></button></h3>
+                            <div class="accordion-collapse collapse" id="collapseTwo2" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    After your website is launched, we offer ongoing maintenance and support to ensure that it remains up-to-date and secure. This includes regular software updates, security monitoring, and backups. We also offer additional services such as content updates, search engine optimization, and marketing support to help you grow your online presence. Our team is always available to answer any questions or concerns you may have about your website.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingThree"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2"><strong>Can I make changes to my website after it's launched?</strong></button></h3>
+                            <div class="accordion-collapse collapse" id="collapseThree2" aria-labelledby="headingThree" data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    Yes, we provide you with the tools and resources to make changes to your website after it's launched. Depending on the complexity of the changes you want to make, we may recommend that you work with our team to ensure that the changes are made correctly and don't impact the functionality or security of your website. We also offer ongoing training and support to help you manage your website and make updates as needed.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="card border-0 bg-light mt-xl-5">
+                        <div class="card-body p-4 py-lg-5">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <div class="h6 fw-bolder">Have more questions?</div>
+                                    <p class="text-muted mb-4">
+                                        Contact us at
+                                        <br />
+                                        <a href="#!">adzamija@icloud.com</a>
+                                    </p>
+                                    <div class="h6 fw-bolder">Follow us</div>
+                                    <a class="fs-5 px-2 link-dark" href="https://twitter.com"><i class="bi-twitter"></i></a>
+                                    <a class="fs-5 px-2 link-dark" href="https://www.facebook.com/"><i class="bi-facebook"></i></a>
+                                    <a class="fs-5 px-2 link-dark" href="https://www.linkedin.com/"><i class="bi-linkedin"></i></a>
+                                    <a class="fs-5 px-2 link-dark" href="https://www.youtube.com/"><i class="bi-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
